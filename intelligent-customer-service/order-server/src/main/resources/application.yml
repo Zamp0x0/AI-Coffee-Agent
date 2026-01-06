@@ -1,0 +1,14 @@
+server:
+  port: 8086
+
+spring:
+  application:
+    name: order-server
+  ai:
+    mcp:
+      server:
+        enabled: true
+        name: order-service
+        version: 1.0.0
+        description: Order Management Service
+        instructions: "KK咖啡厅的订单服务"
